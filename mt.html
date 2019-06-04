@@ -12,33 +12,17 @@
 
     <body><br>
       <div class="container">
-          <div class="alert alert-success">
-              Welcome to the v2 of istanbulairport community-hosted unofficial page. Please send your feedbacks through GitHub.
-          </div>
-          <h1>istanbulairport <small style="color: red;">v2</small></h1>
-          <p>This is a community-hosted website for Istanbul Airport. Also you can see the code of this website at <a href="https://github.com/istanbulairport/v2">GitHub</a>.</p>
-          <div class="d-flex">
-              <div class="dropdown mr-1">
-                  <button type="button" class="btn btn-primary dropdown-toggle" id="dropdownMenuOffset" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-offset="10,20">
-                      Menu
-                  </button>
-                  <div class="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                      <a class="dropdown-item" href="index.html">Homepage</a>
-                      <a class="dropdown-item" href="lfi.html">Live Flight Information</a>
-                      <a class="dropdown-item disabled" href="mt.html">Metar and TAF</a>
-                      <a class="dropdown-item" href="weather.html">Weather</a>
-                      <a class="dropdown-item" href="departures.html">Departures</a>
-                      <a class="dropdown-item" href="arrivals.html">Arrivals</a>
-                      <a class="dropdown-item" href="fs.html">Flight Search</a>
-                      <a class="dropdown-item disabled" href="liveatc.html">Live ATC</a>
-                  </div>
-              </div>
-            </div>
-          <br><div class="container">
-            <h2 style="color: #DC7633;">Metar and TAF</h2>
-            <h3>METAR</h3>
-            <div class="checkwx-container" data-type="METAR" data-station="LTFM"></div>
-            <h3>TAF</h3>
-            <div class="checkwx-container" data-type="TAF" data-station="LTFM"></div>
-          </div><br><br><br>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Life Flight Information</li>
+            </ol>
+          </nav>
+          <h1>istanbulairport <small><b>v2</b></small></h1>
+          <h2>Metar and TAF</h2>
+          <h3>METAR</h3>
+          <div class="checkwx-container" data-type="METAR" data-station="LTFM"></div>
+          <h3>TAF</h3>
+          <div class="checkwx-container" data-type="TAF" data-station="LTFM"></div>
+      </div>
     </body>
