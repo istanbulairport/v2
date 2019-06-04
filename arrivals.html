@@ -7,23 +7,21 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="https://api.checkwx.com/widgets/metartaf.js"></script>
     </head>
 
     <body><br>
-        <div class="container">
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
-                <li class="breadcrumb-item active" aria-current="page">About</li>
-              </ol>
-            </nav>
-            <h1>istanbulairport <small><b>v2</b></small></h1>
-            <h2>About</h2>
-            <p><b>istanbulairport</b> is a open-source status page for Istanbul Airport. But soon, It will be status page for other airports too, like a hub for travelling.</p>
-            <h2>Contact</h2>
-            <p>Please do not get in touch for feature requests we have a GitHub project for that. We recommend you to just send your feedbacks and other stuff through contact.</p>
-            <h4>Matrix</h4>
-            <code>Username: @undergrad:matrix.org</code><br><br>
-        </div>
+      <div class="container">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="index.html">Homepage</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Arrivals</li>
+            </ol>
+          </nav>
+          <h1>istanbulairport <small><b>v2</b></small></h1>
+          <h2>Arrivals</h2>
+          <div class="airportia-widget">
+              <iframe scrolling="no" frameborder="0" style="border:0; width: 100%; height: 95%; min-height: 650px; margin:0; padding:0;" src="https://www.airportia.com/widgets/airport/ist/arrivals/"></iframe>
+          </div>
+      </div>
     </body>
-</html>
